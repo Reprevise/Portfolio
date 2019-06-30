@@ -1,20 +1,13 @@
-/* line 1, ../../../../../Documents/Portfolio/scss/navbar.scss */
-* {
-  margin: 0;
-  padding: 0;
-}
-
-/* line 6, ../../../../../Documents/Portfolio/scss/navbar.scss */
+/* line 1, ../../Users/Owner/Documents/Portfolio/scss/navbar.scss */
 .nav-container {
   width: 100%;
   background: black;
   position: fixed;
   top: 0;
   z-index: 1000;
-  overflow: auto;
 }
 
-/* line 15, ../../../../../Documents/Portfolio/scss/navbar.scss */
+/* line 9, ../../Users/Owner/Documents/Portfolio/scss/navbar.scss */
 nav {
   max-width: 1720px;
   margin: 0 auto;
@@ -22,7 +15,7 @@ nav {
   grid-template-columns: 1fr auto 1fr;
 }
 
-/* line 20, ../../../../../Documents/Portfolio/scss/navbar.scss */
+/* line 14, ../../Users/Owner/Documents/Portfolio/scss/navbar.scss */
 nav a {
   color: white;
   text-decoration: none;
@@ -31,18 +24,18 @@ nav a {
   transition: .3s all ease-in-out;
 }
 
-/* line 26, ../../../../../Documents/Portfolio/scss/navbar.scss */
+/* line 20, ../../Users/Owner/Documents/Portfolio/scss/navbar.scss */
 nav a:hover {
   opacity: .7;
 }
 
-/* line 32, ../../../../../Documents/Portfolio/scss/navbar.scss */
+/* line 26, ../../Users/Owner/Documents/Portfolio/scss/navbar.scss */
 .left-menu {
   grid-column: 1;
   align-self: center;
 }
 
-/* line 35, ../../../../../Documents/Portfolio/scss/navbar.scss */
+/* line 29, ../../Users/Owner/Documents/Portfolio/scss/navbar.scss */
 .left-menu a {
   padding: 10px 0;
   margin-left: 15px;
@@ -51,14 +44,14 @@ nav a:hover {
   letter-spacing: 0.5px;
 }
 
-/* line 44, ../../../../../Documents/Portfolio/scss/navbar.scss */
+/* line 38, ../../Users/Owner/Documents/Portfolio/scss/navbar.scss */
 .logo {
   grid-column: 2;
   font-size: 40px;
   padding: 1rem;
 }
 
-/* line 50, ../../../../../Documents/Portfolio/scss/navbar.scss */
+/* line 44, ../../Users/Owner/Documents/Portfolio/scss/navbar.scss */
 .burger-menu {
   width: 40px;
   grid-column: 1;
@@ -66,21 +59,21 @@ nav a:hover {
   margin-left: 20px;
 }
 
-/* line 57, ../../../../../Documents/Portfolio/scss/navbar.scss */
+/* line 51, ../../Users/Owner/Documents/Portfolio/scss/navbar.scss */
 #nav-toggle, .burger-menu {
   display: none;
 }
 
 @media only screen and (max-width: 1025px) {
-  /* line 62, ../../../../../Documents/Portfolio/scss/navbar.scss */
+  /* line 56, ../../Users/Owner/Documents/Portfolio/scss/navbar.scss */
   .burger-menu {
     display: inline-block;
   }
-  /* line 65, ../../../../../Documents/Portfolio/scss/navbar.scss */
+  /* line 59, ../../Users/Owner/Documents/Portfolio/scss/navbar.scss */
   .left-menu {
     display: none;
   }
-  /* line 68, ../../../../../Documents/Portfolio/scss/navbar.scss */
+  /* line 62, ../../Users/Owner/Documents/Portfolio/scss/navbar.scss */
   #nav-toggle:checked ~ .left-menu {
     display: grid;
     grid-row: 2;
@@ -88,43 +81,43 @@ nav a:hover {
 }
 
 @media only screen and (min-width: 2560px) {
-  /* line 75, ../../../../../Documents/Portfolio/scss/navbar.scss */
+  /* line 69, ../../Users/Owner/Documents/Portfolio/scss/navbar.scss */
   nav {
     max-width: 1920px;
   }
-  /* line 78, ../../../../../Documents/Portfolio/scss/navbar.scss */
+  /* line 72, ../../Users/Owner/Documents/Portfolio/scss/navbar.scss */
   .nav-container {
     height: 125px;
   }
-  /* line 81, ../../../../../Documents/Portfolio/scss/navbar.scss */
+  /* line 75, ../../Users/Owner/Documents/Portfolio/scss/navbar.scss */
   .logo {
     padding: 30px;
   }
-  /* line 84, ../../../../../Documents/Portfolio/scss/navbar.scss */
+  /* line 78, ../../Users/Owner/Documents/Portfolio/scss/navbar.scss */
   .left-menu {
     padding: 40px 0;
   }
-  /* line 86, ../../../../../Documents/Portfolio/scss/navbar.scss */
+  /* line 80, ../../Users/Owner/Documents/Portfolio/scss/navbar.scss */
   .left-menu a {
     font-size: 20px;
   }
 }
 
 @media only screen and (min-width: 3000px) {
-  /* line 93, ../../../../../Documents/Portfolio/scss/navbar.scss */
+  /* line 87, ../../Users/Owner/Documents/Portfolio/scss/navbar.scss */
   .nav-container {
     height: 175px;
   }
-  /* line 96, ../../../../../Documents/Portfolio/scss/navbar.scss */
+  /* line 90, ../../Users/Owner/Documents/Portfolio/scss/navbar.scss */
   .logo {
     padding: 40px;
     font-size: 60px;
   }
-  /* line 100, ../../../../../Documents/Portfolio/scss/navbar.scss */
+  /* line 94, ../../Users/Owner/Documents/Portfolio/scss/navbar.scss */
   .left-menu {
     padding: 40px 0;
   }
-  /* line 102, ../../../../../Documents/Portfolio/scss/navbar.scss */
+  /* line 96, ../../Users/Owner/Documents/Portfolio/scss/navbar.scss */
   .left-menu a {
     font-size: 30px;
     padding: 0px 10px;
@@ -132,51 +125,57 @@ nav a:hover {
 }
 
 @media only screen and (min-width: 4096px) {
-  /* line 110, ../../../../../Documents/Portfolio/scss/navbar.scss */
+  /* line 104, ../../Users/Owner/Documents/Portfolio/scss/navbar.scss */
   nav {
     max-width: 4096px;
   }
-  /* line 113, ../../../../../Documents/Portfolio/scss/navbar.scss */
+  /* line 107, ../../Users/Owner/Documents/Portfolio/scss/navbar.scss */
   .nav-container {
     height: 250px;
   }
-  /* line 116, ../../../../../Documents/Portfolio/scss/navbar.scss */
+  /* line 110, ../../Users/Owner/Documents/Portfolio/scss/navbar.scss */
   .logo {
     padding: 50px;
     font-size: 100px;
   }
-  /* line 120, ../../../../../Documents/Portfolio/scss/navbar.scss */
+  /* line 114, ../../Users/Owner/Documents/Portfolio/scss/navbar.scss */
   .left-menu {
     padding: 70px 0;
   }
-  /* line 122, ../../../../../Documents/Portfolio/scss/navbar.scss */
+  /* line 116, ../../Users/Owner/Documents/Portfolio/scss/navbar.scss */
   .left-menu a {
     font-size: 60px;
     padding: 0px 20px;
   }
 }
 
-/* line 3, ../../../../../Documents/Portfolio/scss/style.scss */
+/* line 3, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* line 8, ../../../../../Documents/Portfolio/scss/style.scss */
+/* line 8, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+body {
+  height: 200vh;
+  max-height: 300vh;
+}
+
+/* line 13, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/* line 14, ../../../../../Documents/Portfolio/scss/style.scss */
+/* line 19, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
 h1 {
   font-size: 3em;
   margin-top: 2.3rem;
   font-family: 'Oswald', 'Courier New', 'Times New Roman', sans-serif;
 }
 
-/* line 20, ../../../../../Documents/Portfolio/scss/style.scss */
+/* line 25, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
 hr {
   border: none;
   height: 5px;
@@ -189,64 +188,111 @@ hr {
   /* Modern Browsers */
 }
 
-/* line 32, ../../../../../Documents/Portfolio/scss/style.scss */
+/* line 37, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
 #first-header {
   width: 50%;
 }
 
-/* line 36, ../../../../../Documents/Portfolio/scss/style.scss */
+/* line 41, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
 #skills-header {
   width: 10%;
 }
 
-/* line 40, ../../../../../Documents/Portfolio/scss/style.scss */
+/* line 45, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
 h3 {
   font-family: 'Raleway', sans-serif;
 }
 
-/* line 44, ../../../../../Documents/Portfolio/scss/style.scss */
+/* line 49, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
 h2 {
   margin-top: 3rem;
   font-family: 'Raleway', sans-serif;
 }
 
-/* line 49, ../../../../../Documents/Portfolio/scss/style.scss */
+/* line 54, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
 h1,
 h3,
 h2 {
   text-align: center;
 }
 
-/* line 55, ../../../../../Documents/Portfolio/scss/style.scss */
-#home {
-  position: relative;
-  height: 100vh;
-  max-height: 100vh;
+/* line 60, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+.section {
   padding-top: 100px;
-  background-color: purple;
+  height: 100vh;
 }
 
-/* line 62, ../../../../../Documents/Portfolio/scss/style.scss */
+/* line 65, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+.small-section {
+  padding-top: 50px;
+  height: 50vh;
+}
+
+/* line 72, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+#home #email-link-wrapper {
+  padding: 10px;
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 80, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+#home #email-link-wrapper a {
+  color: black;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* line 86, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+#home #email-link-wrapper a span {
+  margin: 0;
+}
+
+/* line 93, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
 #home .imgs-wrapper {
   margin-top: 2rem;
   text-align: center;
 }
 
-/* line 67, ../../../../../Documents/Portfolio/scss/style.scss */
+/* line 98, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
 #home .imgs-wrapper #html-css-js-img {
   width: 300px;
   height: 150px;
 }
 
-/* line 72, ../../../../../Documents/Portfolio/scss/style.scss */
+/* line 103, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
 #home .imgs-wrapper .other-skill-img {
   width: 150px;
   height: 150px;
 }
 
-/* line 81, ../../../../../Documents/Portfolio/scss/style.scss */
-#about {
-  height: 100vh;
+/* line 110, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+#home #git-source {
+  position: absolute;
+}
+
+/* line 113, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+#home #git-source a {
+  position: fixed;
+  bottom: 0;
+  color: black;
+  margin: 1rem 1rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* line 121, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+#home #git-source :last-child {
+  right: 0;
+}
+
+/* line 131, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+#about .about-text-container {
+  padding-top: 1.5rem;
+  width: 1200px;
+  text-align: center;
+  margin: auto;
+  font-family: 'Muli', sans-serif;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

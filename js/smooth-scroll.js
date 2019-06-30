@@ -10,8 +10,8 @@ $(document).ready(function () {
         scrollTop: $(hash).offset().top
       }, 800, function () {
 
-        // window.location.hash = hash;
-        history.pushState("", document.title, window.location.pathname);
+        window.location.hash = hash;
+        // history.pushState("", document.title, window.location.pathname);
       });
     }
   });

@@ -7,7 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style/style.css">
   <title>Reprevise | Portfolio</title>
-  <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway|Muli&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -21,16 +22,16 @@
         </label>
         <div class="left-menu">
           <a href="#home">Home</a>
-          <a href="#">About</a>
-          <a href="#">Projects</a>
-          <a href="#">Contact</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
         </div>
         <a href="#" class="logo">Reprevise's Portfolio</a>
       </nav>
     </div>
   </header>
 
-  <section id="home">
+  <section class="section" id="home">
     <h1>Hello there!
     </h1>
     <hr id="first-header">
@@ -38,6 +39,16 @@
       <span class="txt-rotate" data-period="1000"
         data-rotate='[ "front-end web developer.", "software engineer.", "game developer." ]'></span>
     </h3>
+    <div id="email-link-wrapper">
+      <a href="mailto:bschoe322@gmail.com">
+        <div>
+          <i class="material-icons">email</i>
+        </div>
+        <div id="email-container">
+          <span>bschoe322@gmail.com</span>
+        </div>
+      </a>
+    </div>
     <section id="skills">
       <h1>Skills</h1>
       <div id="skills-section-wrapper">
@@ -51,10 +62,35 @@
         </div>
       </div>
     </section>
+    <div id="git-source">
+      <a target="_blank" href="https://github.com/EcoGames"><img src="imgs/github.svg" alt="my github"></a>
+      <a target="_blank" href="https://github.com/EcoGames/Portfolio">Source Code</a>
+    </div>
   </section>
 
-  <section id="about">
+  <section class="section" id="about">
     <h1>About</h1>
+    <div class="about-text-container">
+      <p>Hi there my name is Benjamin and I am a front-end web developer! I got into coding starting with the language
+        Lua
+        for Roblox game development. I then hopped over to Java to develop Minecraft plugins. While doing that, I
+        started
+        to dabble in web development and went back and forth between that and C# with Unity. I then decided to spend
+        most
+        of my time to build websites for others and stopped developing games with Unity. Now that I started web
+        development, I started learning some frameworks such as React, Angular and Svelte! I am also interested in
+        developing mobile apps using Flutter and hoping in the future when the language is more stable that I can
+        develop
+        web apps with it as well.</p>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <h1>Projects</h1>
+  </section>
+
+  <section class="small-section" id="contact">
+    <h1>Contact</h1>
   </section>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

@@ -157,12 +157,26 @@ nav a:hover {
 }
 
 /* line 3, ../../../../../Documents/Portfolio/scss/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, ../../../../../Documents/Portfolio/scss/style.scss */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* line 14, ../../../../../Documents/Portfolio/scss/style.scss */
 h1 {
+  font-size: 3em;
   margin-top: 2.3rem;
   font-family: 'Oswald', 'Courier New', 'Times New Roman', sans-serif;
 }
 
-/* line 8, ../../../../../Documents/Portfolio/scss/style.scss */
+/* line 20, ../../../../../Documents/Portfolio/scss/style.scss */
 hr {
   border: none;
   height: 5px;
@@ -175,39 +189,64 @@ hr {
   /* Modern Browsers */
 }
 
-/* line 20, ../../../../../Documents/Portfolio/scss/style.scss */
+/* line 32, ../../../../../Documents/Portfolio/scss/style.scss */
 #first-header {
   width: 50%;
 }
 
-/* line 24, ../../../../../Documents/Portfolio/scss/style.scss */
+/* line 36, ../../../../../Documents/Portfolio/scss/style.scss */
 #skills-header {
   width: 10%;
 }
 
-/* line 28, ../../../../../Documents/Portfolio/scss/style.scss */
+/* line 40, ../../../../../Documents/Portfolio/scss/style.scss */
 h3 {
   font-family: 'Raleway', sans-serif;
 }
 
-/* line 32, ../../../../../Documents/Portfolio/scss/style.scss */
+/* line 44, ../../../../../Documents/Portfolio/scss/style.scss */
 h2 {
   margin-top: 3rem;
   font-family: 'Raleway', sans-serif;
 }
 
-/* line 37, ../../../../../Documents/Portfolio/scss/style.scss */
+/* line 49, ../../../../../Documents/Portfolio/scss/style.scss */
 h1,
 h3,
 h2 {
   text-align: center;
 }
 
-/* line 43, ../../../../../Documents/Portfolio/scss/style.scss */
+/* line 55, ../../../../../Documents/Portfolio/scss/style.scss */
 #home {
   position: relative;
   height: 100vh;
-  background: purple;
+  max-height: 100vh;
+  padding-top: 100px;
+  background-color: purple;
+}
+
+/* line 62, ../../../../../Documents/Portfolio/scss/style.scss */
+#home .imgs-wrapper {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+/* line 67, ../../../../../Documents/Portfolio/scss/style.scss */
+#home .imgs-wrapper #html-css-js-img {
+  width: 300px;
+  height: 150px;
+}
+
+/* line 72, ../../../../../Documents/Portfolio/scss/style.scss */
+#home .imgs-wrapper .other-skill-img {
+  width: 150px;
+  height: 150px;
+}
+
+/* line 81, ../../../../../Documents/Portfolio/scss/style.scss */
+#about {
+  height: 100vh;
 }
 
 /*# sourceMappingURL=style.css.map */

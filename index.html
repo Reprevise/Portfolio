@@ -12,21 +12,23 @@
 
 <body>
 
-  <div class="nav-container">
-    <nav>
-      <input type="checkbox" id="nav-toggle">
-      <label for="nav-toggle" class="burger-menu">
-        <img src="imgs/menu.png" alt="">
-      </label>
-      <div class="left-menu">
-        <a href="#home">Home</a>
-        <a href="#">About</a>
-        <a href="#">Projects</a>
-        <a href="#">Contact</a>
-      </div>
-      <a href="#" class="logo">Reprevise's Portfolio</a>
-    </nav>
-  </div>
+  <header>
+    <div class="nav-container">
+      <nav>
+        <input type="checkbox" id="nav-toggle">
+        <label for="nav-toggle" class="burger-menu">
+          <img src="imgs/menu.png" alt="">
+        </label>
+        <div class="left-menu">
+          <a href="#home">Home</a>
+          <a href="#">About</a>
+          <a href="#">Projects</a>
+          <a href="#">Contact</a>
+        </div>
+        <a href="#" class="logo">Reprevise's Portfolio</a>
+      </nav>
+    </div>
+  </header>
 
   <section id="home">
     <h1>Hello there!
@@ -37,14 +39,26 @@
         data-rotate='[ "front-end web developer.", "software engineer.", "game developer." ]'></span>
     </h3>
     <section id="skills">
+      <h1>Skills</h1>
       <div id="skills-section-wrapper">
-        <h2>Skills</h2>
         <hr id="skills-header">
+        <div class="imgs-wrapper">
+          <div class="top-img">
+            <img id="html-css-js-img" src="imgs/html css js.svg" alt="html/css/js"></div>
+          <div class="bottom-imgs">
+            <img class="other-skill-img" src="imgs/angular.svg" alt="angular">
+            <img class="other-skill-img" src="imgs/svelte.svg" alt="svelte"></div>
+        </div>
       </div>
     </section>
   </section>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <section id="about">
+    <h1>About</h1>
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/smooth-scroll.js"></script>
   <script src="js/front-text-anim.js"></script>
 </body>
 

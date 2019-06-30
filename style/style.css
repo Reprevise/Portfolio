@@ -225,53 +225,53 @@ h2 {
 /* line 65, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
 .small-section {
   padding-top: 50px;
-  height: 50vh;
+  height: 30vh;
 }
 
-/* line 72, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
-#home #email-link-wrapper {
+/* line 71, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+#email-link-wrapper {
   padding: 10px;
   width: 400px;
   margin: 0 auto;
   text-align: center;
 }
 
-/* line 80, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
-#home #email-link-wrapper a {
+/* line 79, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+#email-link-wrapper a {
   color: black;
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
 }
 
-/* line 86, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
-#home #email-link-wrapper a span {
+/* line 85, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+#email-link-wrapper a span {
   margin: 0;
 }
 
-/* line 93, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+/* line 94, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
 #home .imgs-wrapper {
   margin-top: 2rem;
   text-align: center;
 }
 
-/* line 98, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+/* line 99, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
 #home .imgs-wrapper #html-css-js-img {
   width: 300px;
   height: 150px;
 }
 
-/* line 103, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+/* line 104, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
 #home .imgs-wrapper .other-skill-img {
   width: 150px;
   height: 150px;
 }
 
-/* line 110, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+/* line 111, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
 #home #git-source {
   position: absolute;
 }
 
-/* line 113, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+/* line 114, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
 #home #git-source a {
   position: fixed;
   bottom: 0;
@@ -280,12 +280,12 @@ h2 {
   font-family: 'Raleway', sans-serif;
 }
 
-/* line 121, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+/* line 122, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
 #home #git-source :last-child {
   right: 0;
 }
 
-/* line 131, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+/* line 132, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
 #about .about-text-container {
   padding-top: 1.5rem;
   width: 1200px;

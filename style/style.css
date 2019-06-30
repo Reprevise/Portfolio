@@ -295,4 +295,68 @@ h2 {
   font-size: 20px;
 }
 
+/* line 143, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+.textBold {
+  font-weight: bolder;
+}
+
+/* line 147, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+#projects {
+  width: 100%;
+}
+
+/* line 149, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+#projects .projectsContainer {
+  display: grid;
+  grid-row-gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* line 153, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+#projects .projectsContainer .project {
+  border-radius: 25px;
+  padding: 15px;
+  box-shadow: #999999 3px 1px 6px;
+  margin: 0 30px;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* line 160, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+#projects .projectsContainer .project .projectHeading {
+  margin: 0;
+}
+
+/* line 164, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+#projects .projectsContainer .project .projectImg {
+  margin: 10px;
+  box-shadow: #999999 3px 1px 6px;
+  text-align: center;
+  width: 500px;
+  height: 300px;
+}
+
+/* line 172, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+#projects .projectsContainer .project .projectInfo {
+  display: inline-block;
+  position: absolute;
+  margin: 3rem;
+}
+
+/* line 177, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+#projects .projectsContainer .project .projectInfo .projectSummary {
+  width: 300px;
+}
+
+/* line 183, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+#projects .projectsContainer .project ul {
+  list-style: none;
+  font-size: 1.5em;
+}
+
+/* line 188, ../../Users/Owner/Documents/Portfolio/scss/style.scss */
+#projects .projectsContainer .project a {
+  margin: 0 3rem;
+  color: black;
+}
+
 /*# sourceMappingURL=style.css.map */

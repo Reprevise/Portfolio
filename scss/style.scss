@@ -140,4 +140,55 @@ h2 {
 
 }
 
-#contact {}
+.textBold {
+  font-weight: bolder;
+}
+
+#projects {
+  width: 100%;
+  .projectsContainer {
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    .project {
+      border-radius: 25px;
+      padding: 15px;
+      box-shadow: rgb(153, 153, 153) 3px 1px 6px;
+      margin: 0 30px;
+      font-family: 'Raleway', sans-serif;
+
+      .projectHeading {
+        margin: 0;
+      }
+
+      .projectImg {
+        margin: 10px;
+        box-shadow: rgb(153, 153, 153) 3px 1px 6px;
+        text-align: center;
+        width: 500px;
+        height: 300px;
+      }
+
+      .projectInfo {
+        display: inline-block;
+        position: absolute;
+        margin: 3rem;
+
+        .projectSummary {
+          width: 300px;
+        }
+
+      }
+
+      ul {
+        list-style: none;
+        font-size: 1.5em;
+      }
+
+      a {
+        margin: 0 3rem;
+        color: black;
+      }
+    }
+  }
+}

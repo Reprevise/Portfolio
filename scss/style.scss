@@ -1,4 +1,4 @@
-@import 'navbar.scss';
+@use "navbar.scss";
 
 * {
   margin: 0;
@@ -8,6 +8,7 @@
 body {
   height: 200vh;
   max-height: 300vh;
+  font-family: "Muli", sans-serif;
 }
 
 *,
@@ -19,7 +20,7 @@ body {
 h1 {
   font-size: 3em;
   margin-top: 2.3rem;
-  font-family: 'Oswald', 'Courier New', 'Times New Roman', sans-serif;
+  font-family: "Oswald", "Courier New", "Times New Roman", sans-serif;
 }
 
 hr {
@@ -43,12 +44,12 @@ hr {
 }
 
 h3 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 h2 {
   margin-top: 3rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 h1,
@@ -67,9 +68,7 @@ h2 {
   height: 30vh;
 }
 
-
 #email-link-wrapper {
-
   padding: 10px;
 
   width: 400px;
@@ -77,22 +76,18 @@ h2 {
   text-align: center;
 
   a {
-
     color: black;
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
 
     span {
       margin: 0;
     }
-
   }
 }
 
 #home {
-
   .imgs-wrapper {
-
     margin-top: 2rem;
     text-align: center;
 
@@ -105,7 +100,6 @@ h2 {
       width: 150px;
       height: 150px;
     }
-
   }
 
   #git-source {
@@ -116,28 +110,24 @@ h2 {
       bottom: 0;
       color: black;
       margin: 1rem 1rem;
-      font-family: 'Raleway', sans-serif;
+      font-family: "Raleway", sans-serif;
     }
 
     :last-child {
       right: 0;
     }
-
   }
-
 }
 
 #about {
-
   .about-text-container {
     padding-top: 1.5rem;
     width: 1200px;
     text-align: center;
     margin: auto;
-    font-family: 'Muli', sans-serif;
+    font-family: "Muli", sans-serif;
     font-size: 20px;
   }
-
 }
 
 .textBold {
@@ -155,7 +145,7 @@ h2 {
       padding: 15px;
       box-shadow: rgb(153, 153, 153) 3px 1px 6px;
       margin: 0 30px;
-      font-family: 'Raleway', sans-serif;
+      font-family: "Raleway", sans-serif;
 
       .projectHeading {
         margin: 0;
@@ -177,7 +167,6 @@ h2 {
         .projectSummary {
           width: 300px;
         }
-
       }
 
       ul {
@@ -191,4 +180,13 @@ h2 {
       }
     }
   }
+}
+
+.revamp {
+  background-color: rgb(207, 89, 89);
+  padding: 16px;
+  color: white;
+  margin: 72px auto;
+  width: 50%;
+  text-align: center;
 }
